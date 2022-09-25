@@ -7,6 +7,8 @@ Research best random integer method (randint?)
 
 import random
 
+#Start off by asking just one question instead of 5
+
 correct_score = 0
 
 for question_number in range(1, 6):
