@@ -29,14 +29,16 @@ for question_number in range(1, 6):
         print('Wrong! :(')
 
 print(f'You scored {correct_score} out of 5')
-if correct_score == 0:
+if correct_score <= 1:
     print('Don''t give up the day job!')
-elif correct_score in [1, 2]:
+elif correct_score <= 3:
     #Could change this to score == 1 or score == 2
     print('Could do better!')
-elif correct_score in [3, 4]:
-    print('Not bad!')
+elif correct_score == 4:
+    print('Pretty good!')
 elif correct_score == 5:
     #Could change this to 'else'
-    print('Great work!')
+    print('Full marks!')
 
+#Could ask user if they want to play again
+#Could keep track of the highest score (and name)
