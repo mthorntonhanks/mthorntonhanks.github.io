@@ -1,2 +1,3 @@
-print('Hello world!!!')
+if lang == 'eng':
+    print('Hello world!!!')
 
