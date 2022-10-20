@@ -10,6 +10,7 @@ import random
 #Start off by asking just one question instead of 5
 
 correct_score = 0
+print('Welcome to the times table practice')
 
 for question_number in range(1, 6):
     #Could ask user if they want easy or difficult mode (lower or higher numbers)
